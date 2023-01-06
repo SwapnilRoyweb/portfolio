@@ -8,13 +8,14 @@ header{
     background-image: url(../public/assets/images/header_bg.png), url(../public/assets/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    padding: 0 30px;
+    padding: 0 50px;
 }
 /* header & navbar section */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px;
+    margin: 0 100px;
+    padding: 30px;   ;
 }
 .nav-title{
     font-size:xx-large;
@@ -43,7 +44,7 @@ nav li button{
 .banner{
     display: flex;
     align-items: center;
-    margin: 0 100px;
+    margin: 0 70px;
 }
 .banner button{
     background-color: blanchedalmond;
@@ -92,13 +93,40 @@ main{
     display: flex;
     justify-content: space-around;
 }
-.about-info-container .about-info{
-
-}
 .about-info-container .about-info .title{
     font-size: 15px;
 }
 .about-info-container .about-info .value{
     font-weight: 600;
     font-size: 15px;
+}
+/* What i do */
+.what-i-do{
+    margin-top: 130px;
+    text-align: center;
+}
+.what-i-do .title{
+    
+}
+.what-i-do .description{
+    margin-top: 30px;
+}
+.what-i-do .skills-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    text-align: justify;
+}
+.what-i-do .skills-container .skill{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.what-i-do .skills-container .skill-title{
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 20px;
+}
+.what-i-do .skills-container .skill-description{
+    margin-top: 30px;
 }
