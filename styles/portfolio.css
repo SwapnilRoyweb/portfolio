@@ -14,7 +14,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin-left: 200px;
     padding: 30px;   ;
 }
 .nav-title{
@@ -45,6 +45,9 @@ nav li button{
     display: flex;
     align-items: center;
     margin: 0 70px;
+}
+.banner .description{
+    margin-left: 35px;
 }
 .banner button{
     background-color: blanchedalmond;
@@ -129,4 +132,60 @@ main{
 }
 .what-i-do .skills-container .skill-description{
     margin-top: 30px;
+}
+/* resume section */
+.summary-resume{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.summary-resume .resume{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;   
+}
+.summary-resume .resume .education .edu{
+    background-color: #fff8f3;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.summary-resume .resume .experience .exp{
+    background-color: #fff8f3;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.summary-resume button{
+    background-color: blanchedalmond;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 30px 420px;
+}
+/* footer */
+footer{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color: #fff8f3;
+    gap: 100px;
+}
+footer .written{
+    margin-left: 100px; 
+}
+footer .form{
+    margin-right: 100px;
+}
+footer .form .main div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer .form .main div button{
+    background-color: rgb(245, 189, 104);
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 10px;
 }
